@@ -1,0 +1,52 @@
+body{
+    width: 940px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h3{
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+}
+ul li{
+    position: relative;
+    left: 20px;
+}
+footer{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+.first{
+    float: left;
+}
+#head2{
+    float: right;
+}
+a:hover{
+    color: black;
+}
+.contact{
+    float: right;
+    margin-right: 10px;
+}
+fieldset{
+    width: 300px;
+}
+#head{
+    list-style-type: none;
+}
+.image{
+    width: 300px;
+}
+.video{
+    margin-left: 20px;
+}
+#one, #two, #three{
+    float: left;
+}
+.image, .contact, .video{
+    display: inline-block;
+}
